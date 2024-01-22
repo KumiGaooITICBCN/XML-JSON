@@ -1,3 +1,88 @@
 {
-  "pokemon": [{}]
+  "pokemon": [
+    {
+      "id": 1,
+      "name": "bulbasaur",
+      "tipos": ["planta", "veneno"],
+      "peso": {
+        "unidad": "kg",
+        "valor": 6.9
+      },
+      "altura": {
+        "unidad": "metros",
+        "valor": 0.7
+      },
+      "estadisticas": {
+        "velocidad": 3,
+        "fortaleza": 3,
+        "precisión": 4,
+        "resistencia": 4
+      },
+      "movimientos": [
+        {
+          "nombre": "placaje",
+          "descripcion": "Placaje (Tackle en inglés; たいあたり Golpe con el cuerpo en japonés) es un movimiento de tipo normal introducido en la primera generación.",
+          "potencia": "40",
+          "contacto": true
+        },
+        {
+          "nombre": "gruñido",
+          "descripcion": "Gruñido (Growl en inglés; なきごえ Grito en japonés) es un movimiento de tipo normal introducido en la primera generación.",
+          "potencia": "",
+          "contacto": false
+        }
+      ],
+      "imagen": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/4/43/latest/20190406170624/Bulbasaur.png/200px-Bulbasaur.png",
+      "evoluciones": [
+        {
+          "nombre": "ivysaur",
+          "nivel": 16
+        },
+        {
+          "nombre": "venusaur",
+          "nivel": 32
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "ivysaur",
+      "tipos": ["planta", "veneno"],
+      "peso": {
+        "unidad": "kg",
+        "valor": 13
+      },
+      "altura": {
+        "unidad": "metros",
+        "valor": 1.0
+      },
+      "estadisticas": {
+        "velocidad": 2,
+        "fortaleza": 3,
+        "precisión": 5,
+        "resistencia": 5
+      },
+      "movimientos": [
+        {
+          "nombre": "bomba germen",
+          "descripcion": "Bomba germen (Seed Bomb en inglés; タネばくだん Bomba semilla en japonés) es un movimiento de tipo planta introducido en la cuarta generación.",
+          "potencia": "80",
+          "contacto": false
+        },
+        {
+          "nombre": "derribo",
+          "descripcion": "Derribo (Take Down en inglés; とっしん Carga en japonés) es un movimiento de tipo normal introducido en la primera generación.",
+          "potencia": "90",
+          "contacto": true
+        }
+      ],
+      "imagen": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/8/86/latest/20190406151903/Ivysaur.png/200px-Ivysaur.png",
+      "evoluciones": [
+        {
+          "nombre": "venusaur",
+          "nivel": 32
+        }
+      ]
+    }
+  ]
 }
